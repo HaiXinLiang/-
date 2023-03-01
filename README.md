@@ -4,4 +4,4 @@
 代码随想录训练营的资料 https://github.com/youngyangyang04/leetcode-master
 
 打卡
-Day1
+Day1 https://github.com/HaiXinLiang/-/commit/d9432b66e8daf0cccb282d1856e3c8d1a5c875b0
