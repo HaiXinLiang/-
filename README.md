@@ -6,3 +6,5 @@
 打卡
 
 Day1 https://github.com/HaiXinLiang/-/blob/main/notes/Day1.md
+
+Days https://github.com/HaiXinLiang/-/blob/main/notes/Day2.md
