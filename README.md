@@ -7,4 +7,6 @@
 
 Day1 https://github.com/HaiXinLiang/-/blob/main/notes/Day1.md
 
-Days https://github.com/HaiXinLiang/-/blob/main/notes/Day2.md
+Day2 https://github.com/HaiXinLiang/-/blob/main/notes/Day2.md
+
+Day3 https://github.com/HaiXinLiang/-/blob/main/notes/Day3.md
