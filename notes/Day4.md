@@ -49,7 +49,22 @@
 
 题目链接/文章讲解/视频讲解：https://programmercarl.com/0019.%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E5%80%92%E6%95%B0%E7%AC%ACN%E4%B8%AA%E8%8A%82%E7%82%B9.html
 
- 面试题 02.07. 链表相交  
+视频讲解： https://www.bilibili.com/video/BV1vW4y1U7Gf
+
+题目：https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+
+看到题目的第一想法：不知道怎么找到N。
+
+实现过程中遇到哪些困难: 如何找N，临界值while的判断
+
+看完代码随想录之后的想法:看了视频后，觉得用双指针找倒数第N/N+1个，太绝妙了。
+
+今日收获：1. 宗旨，要在改动链接节点前做指针标志 2. 双指针找倒数第N/N+1个节点
+
+重点：双指针，哪里做指针
+ 
+
+面试题 02.07. 链表相交  
 
 本题没有视频讲解，大家注意 数值相同，不代表指针相同。
 
