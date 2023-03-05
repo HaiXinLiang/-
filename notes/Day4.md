@@ -70,8 +70,35 @@
 
 题目链接/文章讲解：https://programmercarl.com/%E9%9D%A2%E8%AF%95%E9%A2%9802.07.%E9%93%BE%E8%A1%A8%E7%9B%B8%E4%BA%A4.html
 
+视频讲解： N/A
+
+题目：https://leetcode.com/problems/intersection-of-two-linked-lists/
+
+看到题目的第一想法：如果可以倒过来，先判断最后一个是否相等，然后不断向前就好了。看了文章讲解，才了解是先分别算两链表的长度，再从倒数相同位数那里对比两个列表。
+
+实现过程中遇到哪些困难:看完文章讲解后，做起题目很顺利。
+
+今日收获：感觉自己用指针，运用比前几道题灵活不少。
+
+重点：intersection of two linked lists 的 intersection 是指相同的内存地址
+
+
  142.环形链表II  
 
 算是链表比较有难度的题目，需要多花点时间理解 确定环和找环入口，建议先看视频。
 
 题目链接/文章讲解/视频讲解：https://programmercarl.com/0142.%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8II.html
+
+视频讲解： https://www.bilibili.com/video/BV1if4y1d7ob
+
+题目：https://leetcode.com/problems/linked-list-cycle-ii/
+
+看到题目的第一想法：只要next没有出现null, 就是有闭环了，但不知道怎么找到环的入口节点。
+
+实现过程中遇到哪些困难: 数学逻辑得过关。明白了逻辑关系，就很容易实现了。
+
+看完代码随想录之后的想法:看了视频后，觉得太绝妙了，得数学好，想通了才能
+
+今日收获：1. 双指针找闭环，快慢指针能相遇，就是有闭环。 2. 快指针一定在慢指针走一圈内环的时候相遇，不可能跑到两圈才相遇。3.相遇后的点-》闭环入口节点 的长度等于 head节点到闭环入口节点的长度
+
+重点：数学逻辑过关才能把题做出来
