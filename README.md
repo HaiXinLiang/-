@@ -10,3 +10,9 @@ Day1 https://github.com/HaiXinLiang/-/blob/main/notes/Day1.md
 Day2 https://github.com/HaiXinLiang/-/blob/main/notes/Day2.md
 
 Day3 https://github.com/HaiXinLiang/-/blob/main/notes/Day3.md
+
+Day4 https://github.com/HaiXinLiang/-/blob/main/notes/Day4.md
+
+Day5 rest
+
+Day6 https://github.com/HaiXinLiang/-/blob/main/notes/Day6.md
