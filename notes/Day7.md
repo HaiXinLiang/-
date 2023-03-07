@@ -88,10 +88,11 @@
 
 看到题目的第一想法：时间关系， 还是看视频吧。
 
-实现过程中遇到哪些困难: 
+实现过程中遇到哪些困难: 在三数之和的基础上改code还是比较容易做出来的。难点是k和i的减去枝条。我开始没想过要减枝的，感觉没有必要，有就更好而已。原来不是。
 
-看完代码随想录之后的想法:
+看完代码随想录之后的想法: 四数之和真的是三数之和的加强版~~ 6666
 
-今日收获：
+今日收获：resultIntegerList.add(Arrays.asList(nums[k],nums[i],nums[left], nums[right]));
 
-重点：
+重点：去枝 if(nums[k] > 0 && nums[k] > target) break; 
+if(nums[k] + nums[i]> 0 && nums[k] + nums[i] > target) break;
