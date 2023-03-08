@@ -21,11 +21,18 @@
 
 题目链接/文章讲解/视频讲解：https://programmercarl.com/0344.%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.html  
 
+一下子做出来了。
+
  541. 反转字符串II
 
 建议：本题又进阶了，自己先去独立做一做，然后在看题解，对代码技巧会有很深的体会。 
 
 题目链接/文章讲解/视频讲解：https://programmercarl.com/0541.%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2II.html  
+
+试了很久，都没有做出来，看了视频，才了解思路，
+1. 首先是for(int i=o;i<ch.length;**i+=2k**), 
+2. string -> char => char[] ch = s.toCharArray(), char -> string => new String(ch)
+3. reverse的ending确定Math.min(**s.length-1**, **start + k - 1**);
 
 
  剑指Offer 05.替换空格 
@@ -38,7 +45,12 @@
 
 建议：这道题目基本把 刚刚做过的字符串操作 都覆盖了，不过就算知道解题思路，本题代码并不容易写，要多练一练。 
 
-题目链接/文章讲解/视频讲解：https://programmercarl.com/0151.%E7%BF%BB%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%87%8C%E7%9A%84%E5%8D%95%E8%AF%8D.html  
+题目链接/文章讲解/视频讲解：https://programmercarl.com/0151.%E7%BF%BB%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%87%8C%E7%9A%84%E5%8D%95%E8%AF%8D.html 
+
+
+不是一般的繁琐，要分成3部分完成，一是trim多余的spaces，二是整个string反转，然后是每个word反转。好在整个string的反转和每个word的反转都可以套用一个程序来实现。
+char[] 剪短 =》 System.arraycopy(originalChars, start_index, newChars, start_index, length)
+char -> string => new String(ch)
 
  剑指Offer58-II.左旋转字符串 
 
