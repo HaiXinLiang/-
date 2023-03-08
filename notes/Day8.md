@@ -57,3 +57,5 @@ char -> string => new String(ch)
 建议：题解中的解法如果没接触过的话，应该会想不到
 
 题目链接/文章讲解：https://programmercarl.com/%E5%89%91%E6%8C%87Offer58-II.%E5%B7%A6%E6%97%8B%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.html  
+
+自己用了System.arraycopy实现的，然后看文章，用的是反转再反转。看到题解，最快的是用subString()
