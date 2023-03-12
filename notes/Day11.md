@@ -62,17 +62,17 @@ day 11 第五章 栈与队列
 
 题目链接/文章讲解/视频讲解：https://programmercarl.com/0150.%E9%80%86%E6%B3%A2%E5%85%B0%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%B1%82%E5%80%BC.html  
 
-视频讲解：
+视频讲解：https://www.bilibili.com/video/BV1kd4y1o7on
 
-题目：
+题目：https://leetcode.com/problems/evaluate-reverse-polish-notation
 
-看到题目的第一想法： 
+看到题目的第一想法： 还是看视频吧。
 
-实现过程中遇到哪些困难:
+实现过程中遇到哪些困难:看了视频后自己做出来了。一开始没搞清楚‘+’与“+”的区别，debug的时候才发现出问题了。
 
-看完代码随想录之后的想法: 
+看完代码随想录之后的想法: 自己的写法把检验是否是数字， 还有是否是有效的操作符也做了检验。
 
-今日收获：
+今日收获：‘+’与“+”的不同。
 
 重点：
 
