@@ -66,7 +66,15 @@ https://leetcode.com/problems/binary-tree-postorder-traversal  //后序遍历：
 
 题目链接/文章讲解/视频讲解：https://programmercarl.com/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E8%BF%AD%E4%BB%A3%E9%81%8D%E5%8E%86.html  
 
- 
+ 看到题目的第一想法： 有点难
+
+实现过程中遇到哪些困难: 看视频前序迭代，没有写出中序来，后来看视频才发现中序是特别难的，因为遍历顺序和节点处理的顺序是不一样的。
+
+看完代码随想录之后的想法: 
+
+今日收获：
+
+重点： 
 
 统一迭代   （基础不好的录友，迭代法可以放过）
 
