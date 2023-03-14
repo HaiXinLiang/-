@@ -19,21 +19,20 @@ day 14 第六章二叉树
 
 需要了解 二叉树的种类，存储方式，遍历方式 以及二叉树的定义 
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
+ Definition for a binary tree node.
+ public class TreeNode {
+     int val;
+     TreeNode left;
+     TreeNode right;
+     TreeNode() {}
+     TreeNode(int val) { this.val = val; }
+     TreeNode(int val, TreeNode left, TreeNode right) {
+         this.val = val;
+         this.left = left;
+         this.right = right;
+     }
+ }
+
 
 文章讲解：https://programmercarl.com/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80.html  
 
