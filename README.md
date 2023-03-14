@@ -24,3 +24,9 @@ Day8 https://github.com/HaiXinLiang/-/blob/main/notes/Day8.md
 Day9 https://github.com/HaiXinLiang/-/blob/main/notes/Day9.md
 
 Day10 https://github.com/HaiXinLiang/-/blob/main/notes/Day10.md
+
+Day 11 https://github.com/HaiXinLiang/-/blob/main/notes/Day11.md
+
+Day 12 rest
+
+Day 13 https://github.com/HaiXinLiang/-/blob/main/notes/Day13.md
