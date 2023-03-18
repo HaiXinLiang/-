@@ -21,17 +21,17 @@
 
 题目链接/文章讲解/视频讲解：https://programmercarl.com/0110.%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91.html  
 
-视频讲解:
+视频讲解: https://www.bilibili.com/video/BV1Ug411S7my
 
 题目：https://leetcode.com/problems/balanced-binary-tree
 
-看到题目的第一想法： 
+看到题目的第一想法： 什么叫平衡二叉树，好像是左右深度不相差大于1.
 
 实现过程中遇到哪些困难: 已经不符合条件应该返回-1，传给上一层
 
-看完代码随想录之后的想法:  
+看完代码随想录之后的想法:  对于在左右做递归后，再加上些逻辑。还是不是太理解。
 
-今日收获
+今日收获： 获取绝对值： Math.abs(left-right) 
 
 重点：
 
@@ -43,7 +43,7 @@
 
 题目链接/文章讲解/视频讲解：https://programmercarl.com/0257.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%89%80%E6%9C%89%E8%B7%AF%E5%BE%84.html 
 
-视频讲解:
+视频讲解: https://www.bilibili.com/video/BV1ZG411G7Dh
 
 题目：https://leetcode.com/problems/binary-tree-paths
 
@@ -51,11 +51,11 @@
 
 实现过程中遇到哪些困难:懵懵懂懂做出来。感觉很神奇。
 
-看完代码随想录之后的想法:  
+看完代码随想录之后的想法:  看来得重新刷。
 
-今日收获： 加深对回溯的过程
+今日收获： 加深对回溯的过程。
 
-重点：
+重点：如何写参数，构思过程，两个ArrayList<>()，一个是用来记录结果的，另外一个是用来，记录过程中的节点。
 
  404.左叶子之和 （优先掌握递归）
 
@@ -63,16 +63,16 @@
 
 题目链接/文章讲解/视频讲解：https://programmercarl.com/0404.%E5%B7%A6%E5%8F%B6%E5%AD%90%E4%B9%8B%E5%92%8C.html 
 
-视频讲解:
+视频讲解: https://www.bilibili.com/video/BV1GY4y1K7z8
 
 题目：https://leetcode.com/problems/sum-of-left-leaves
 
 看到题目的第一想法：越来越难写了。
 
-实现过程中遇到哪些困难:不是太明白对节点的处理，可以放在left那边，也可以反正最后处理那。。。需要再理解
+实现过程中遇到哪些困难:**不是太明白对节点的处理，可以放在left那边，也可以反正最后处理那。。。需要再理解**
 
 看完代码随想录之后的想法: 看着答案做出来了，但是还是有点懵懵懂懂的.
 
 今日收获
 
-重点：
+重点： 
