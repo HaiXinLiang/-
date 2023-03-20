@@ -1,10 +1,15 @@
 第六章 二叉树 part06
+
 今日内容 
 
 ● 654.最大二叉树 
+
 ● 617.合并二叉树 
+
 ● 700.二叉搜索树中的搜索 
+
 ● 98.验证二叉搜索树 
+
 
 
  详细布置 
@@ -79,11 +84,14 @@
 
 视频讲解：https://www.bilibili.com/video/BV18P411n7Q4  
 
-题目：
+题目：https://leetcode.com/problems/validate-binary-search-tree/
 
-看到题目的第一想法：
+看到题目的第一想法：真的需要用中序吗？我就用了后序，结果就打脸了。
 
-实现过程中遇到哪些困难: 
+实现过程中遇到哪些困难: 陷阱：误区：if(root.val > root.left && root.val < root.right) return true 这是错的。
+例如
+<img width="111" alt="image" src="https://user-images.githubusercontent.com/87255377/226340381-59456b48-9263-49cc-a5a3-3c0725015a8e.png">
+
 
 看完代码随想录之后的想法:
 
