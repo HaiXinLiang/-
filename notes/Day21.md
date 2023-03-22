@@ -66,14 +66,14 @@ https://programmercarl.com/0236.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E8
 
 视频讲解：https://www.bilibili.com/video/BV1jd4y1B7E2   
 
-题目：
+题目：https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 
 看到题目的第一想法：
 
-实现过程中遇到哪些困难: 
+实现过程中遇到哪些困难: 中的处理细节没有做好。没有用left, right去判断，而用了root.left, root.right去判断。感觉有点混乱。没有实在的掌握好。
 
 看完代码随想录之后的想法:
 
-今日收获：
+今日收获：对中的处理细节得好好掌握！
 
 重点：
