@@ -16,15 +16,17 @@
 
 视频讲解：https://www.bilibili.com/video/BV1KT4y1M7HJ  
 
-题目：
+题目：https://leetcode.com/problems/combination-sum
 
-看到题目的第一想法：
+看到题目的第一想法： 自己可以做出来。
 
-实现过程中遇到哪些困难: 
+实现过程中遇到哪些困难: 经常把backtracking函数里面那个i （下一层的startIndex），直接写startIndex。就是把上一层的startIndex传给了下一层的startIndex。这没有达到枝叶去重的效果。
+<img width="309" alt="image" src="https://user-images.githubusercontent.com/87255377/227926240-90dd1840-0c76-4574-9457-0c2e20ee99cd.png">
+
 
 看完代码随想录之后的想法:
 
-今日收获：
+今日收获：自己真的可以独立做出来
 
 重点：
 
@@ -38,15 +40,15 @@
 
 视频讲解：https://www.bilibili.com/video/BV12V4y1V73A
 
-题目：
+题目：https://leetcode.com/problems/combination-sum-ii
 
-看到题目的第一想法：
+看到题目的第一想法：自己试做了一下，发现没有去重。
 
-实现过程中遇到哪些困难: 
+实现过程中遇到哪些困难: 1. 不知道如何去重，也没有搞清楚**树层去重**和**树枝去重**的不同之处，2. 把上一层的startIndex直接传给了下一层做startIndex。 3. continue 与 return的区别是什么？？？ return是返回去原调用函数。continue是返回到for循环。
 
-看完代码随想录之后的想法:
+看完代码随想录之后的想法:好好想想如何做数层去重，是利用boolean[] used来标识
 
-今日收获：
+今日收获：知道了数层去重和树枝去重。
 
 重点：
 
