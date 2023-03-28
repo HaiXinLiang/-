@@ -69,6 +69,9 @@ https://programmercarl.com/0131.%E5%88%86%E5%89%B2%E5%9B%9E%E6%96%87%E4%B8%B2.ht
 
 看完代码随想录之后的想法:
 
+![image](https://user-images.githubusercontent.com/87255377/228206291-3340fa4e-c90e-45a4-b6d1-59561b4ea8f0.png)
+
+
 今日收获：
 
 重点：
