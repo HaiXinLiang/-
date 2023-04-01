@@ -49,15 +49,15 @@ https://programmercarl.com/0376.%E6%91%86%E5%8A%A8%E5%BA%8F%E5%88%97.html
 
 视频： https://www.bilibili.com/video/BV17M411b7NS
 
-题目：
+题目：https://leetcode.com/problems/wiggle-subsequence
 
-看到题目的第一想法：
+看到题目的第一想法：直接看视频了
 
-实现过程中遇到哪些困难: 
+实现过程中遇到哪些困难: 很容易忽略单调中间有平坡的情况，而且感觉不容易出来。看了视频知道怎么处理，多看一遍视频才知道原理是prediff没有必要跟着currdiff走，它只需要有摆动的时候才记录下当前prediff的方向。
 
 看完代码随想录之后的想法:
 
-今日收获：
+今日收获：贪心没套路，有点跟不上。加油！！！
 
 重点：
 
@@ -67,14 +67,14 @@ https://programmercarl.com/0053.%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%92%8C.ht
 
 视频： https://www.bilibili.com/video/BV1aY4y1Z7ya
 
-题目：
+题目：https://leetcode.com/problems/maximum-subarray
 
-看到题目的第一想法：
+看到题目的第一想法：看了视频后，了解思路，debug了好些次，自己做出来了。
 
-实现过程中遇到哪些困难: 
+实现过程中遇到哪些困难: result的更新是result与前连续和两者间取最大值。自己没有在连续和改变后，及时更新result数值
 
 看完代码随想录之后的想法:
 
-今日收获：
+今日收获：还是得多思考呀。即使看了视频了解思路，也得多想想。
 
 重点：
