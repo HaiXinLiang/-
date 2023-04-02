@@ -13,7 +13,7 @@
 
 https://programmercarl.com/1005.K%E6%AC%A1%E5%8F%96%E5%8F%8D%E5%90%8E%E6%9C%80%E5%A4%A7%E5%8C%96%E7%9A%84%E6%95%B0%E7%BB%84%E5%92%8C.html  
 
-视频：
+视频：https://www.bilibili.com/video/BV138411G7LY
 
 题目：
 
@@ -33,7 +33,7 @@ https://programmercarl.com/1005.K%E6%AC%A1%E5%8F%96%E5%8F%8D%E5%90%8E%E6%9C%80%E
 
 https://programmercarl.com/0134.%E5%8A%A0%E6%B2%B9%E7%AB%99.html  
 
-视频：
+视频：https://www.bilibili.com/video/BV1jA411r7WX
 
 题目：
 
@@ -53,7 +53,7 @@ https://programmercarl.com/0134.%E5%8A%A0%E6%B2%B9%E7%AB%99.html
 
 https://programmercarl.com/0135.%E5%88%86%E5%8F%91%E7%B3%96%E6%9E%9C.html
 
-视频：
+视频：https://www.bilibili.com/video/BV1ev4y1r7wN
 
 题目：
 
