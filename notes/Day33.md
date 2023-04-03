@@ -15,15 +15,19 @@ https://programmercarl.com/1005.K%E6%AC%A1%E5%8F%96%E5%8F%8D%E5%90%8E%E6%9C%80%E
 
 视频：https://www.bilibili.com/video/BV138411G7LY
 
-题目：
+题目：https://leetcode.com/problems/maximize-sum-of-array-after-k-negations
 
-看到题目的第一想法：
+看到题目的第一想法：自己尝试做了一下。
 
-实现过程中遇到哪些困难: 
+实现过程中遇到哪些困难: 没有想到直接用绝对值从大到小这样让数组进行排列。妙！
 
 看完代码随想录之后的想法:
 
-今日收获：
+今日收获：用绝对值从大到小这样让数组进行排列
+          IntStream.of(nums)
+                .boxed()
+                .sorted((x, y) -> Math.abs(y) - Math.abs(x))
+                .mapToInt(Integer::intValue).toArray();
 
 重点：
 
@@ -35,11 +39,11 @@ https://programmercarl.com/0134.%E5%8A%A0%E6%B2%B9%E7%AB%99.html
 
 视频：https://www.bilibili.com/video/BV1jA411r7WX
 
-题目：
+题目：https://leetcode.com/problems/gas-station
 
-看到题目的第一想法：
+看到题目的第一想法：看了视频。了解了原理
 
-实现过程中遇到哪些困难: 
+实现过程中遇到哪些困难: 自己试图去做，发现不知道怎么判断真的可以travel around the circuit once。发现少了totalSum的计算。
 
 看完代码随想录之后的想法:
 
@@ -55,7 +59,7 @@ https://programmercarl.com/0135.%E5%88%86%E5%8F%91%E7%B3%96%E6%9E%9C.html
 
 视频：https://www.bilibili.com/video/BV1ev4y1r7wN
 
-题目：
+题目：https://leetcode.com/problems/candy/
 
 看到题目的第一想法：
 
