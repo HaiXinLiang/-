@@ -58,14 +58,22 @@ https://programmercarl.com/0452.%E7%94%A8%E6%9C%80%E5%B0%91%E6%95%B0%E9%87%8F%E7
 
 视频：https://www.bilibili.com/video/BV1SA41167xe
 
-题目：
+题目：https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons
 
-看到题目的第一想法：
+看到题目的第一想法：觉得经过上一题，已经把握了如何做比较的sorting，结果来了个溢出，得用comparator，不是太熟悉。
 
-实现过程中遇到哪些困难: 
+实现过程中遇到哪些困难: 实现过程中以下排序溢出
+   Arrays.sort(points, (a,b) -> {
+            if(a[0] != b[0]) return a[0] - b[0];
+            return a[1] - b[1];
+        });
+解决方法有：
+Arrays.sort(points, (a,b) -> Integer.compare(a[0], b[0]));
+Arrays.sort(points,Comparator.comparingInt(o -> o[1]));
 
-看完代码随想录之后的想法:
 
-今日收获：
+看完代码随想录之后的想法:看了答案后，觉得Integer.compare(x,x) 比 Comparator.comparing(o-> o(x)) 好掌握
 
-重点：
+今日收获：得好好琢磨一下如何做比较-》sorting
+
+重点：1. 如何排序 2. 怎样确定开新箭
