@@ -16,9 +16,9 @@
 
 https://programmercarl.com/0435.%E6%97%A0%E9%87%8D%E5%8F%A0%E5%8C%BA%E9%97%B4.html  
 
-视频：
+视频：https://www.bilibili.com/video/BV1A14y1c7E1
 
-题目：
+题目：https://leetcode.com/problems/non-overlapping-intervals
 
 看到题目的第一想法：
 
@@ -34,9 +34,9 @@ https://programmercarl.com/0435.%E6%97%A0%E9%87%8D%E5%8F%A0%E5%8C%BA%E9%97%B4.ht
 
 https://programmercarl.com/0763.%E5%88%92%E5%88%86%E5%AD%97%E6%AF%8D%E5%8C%BA%E9%97%B4.html  
 
-视频：
+视频：https://www.bilibili.com/video/BV18G4y1K7d5
 
-题目：
+题目: https://leetcode.com/problems/partition-labels/
 
 看到题目的第一想法：
 
@@ -53,9 +53,9 @@ https://programmercarl.com/0763.%E5%88%92%E5%88%86%E5%AD%97%E6%AF%8D%E5%8C%BA%E9
 
 https://programmercarl.com/0056.%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4.html  
 
-视频：
+视频：https://www.bilibili.com/video/BV1wx4y157nD
 
-题目：
+题目：https://leetcode.com/problems/merge-intervals/
 
 看到题目的第一想法：
 
