@@ -12,9 +12,9 @@
 738.单调递增的数字 
 https://programmercarl.com/0738.%E5%8D%95%E8%B0%83%E9%80%92%E5%A2%9E%E7%9A%84%E6%95%B0%E5%AD%97.html  
 
-视频：
+视频：https://www.bilibili.com/video/BV1Kv4y1x7tP
 
-题目：
+题目：https://leetcode.com/problems/monotone-increasing-digits/
 
 看到题目的第一想法：
 
@@ -31,9 +31,9 @@ https://programmercarl.com/0738.%E5%8D%95%E8%B0%83%E9%80%92%E5%A2%9E%E7%9A%84%E6
 本题是贪心和二叉树的一个结合，比较难，一刷大家就跳过吧。 
 https://programmercarl.com/0968.%E7%9B%91%E6%8E%A7%E4%BA%8C%E5%8F%89%E6%A0%91.html  
  
- 视频：
+视频：https://www.bilibili.com/video/BV1SA411U75i
 
-题目：
+题目：https://leetcode.com/problems/binary-tree-cameras/
 
 看到题目的第一想法：
 
