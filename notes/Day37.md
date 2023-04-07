@@ -16,13 +16,13 @@ https://programmercarl.com/0738.%E5%8D%95%E8%B0%83%E9%80%92%E5%A2%9E%E7%9A%84%E6
 
 题目：https://leetcode.com/problems/monotone-increasing-digits/
 
-看到题目的第一想法：
+看到题目的第一想法：直接看视频的解题思路了。
 
-实现过程中遇到哪些困难: 
+实现过程中遇到哪些困难: 1. 解题过程中发现自己对数组从后遍历不是太熟悉，解决方案：应该套用一下具体数值。2. array[i]--; 运行OK。但是array[i] = array[i] - 1;报错。真没有想明白是怎么一回事。还是问下人吧。google太难google了。
 
-看完代码随想录之后的想法:
+看完代码随想录之后的想法: 
 
-今日收获：
+今日收获：解题方向是对的。技术还得熟练些。
 
 重点：
 
@@ -35,7 +35,7 @@ https://programmercarl.com/0968.%E7%9B%91%E6%8E%A7%E4%BA%8C%E5%8F%89%E6%A0%91.ht
 
 题目：https://leetcode.com/problems/binary-tree-cameras/
 
-看到题目的第一想法：
+看到题目的第一想法：了解题思路。 留到以后解决吧。
 
 实现过程中遇到哪些困难: 
 
