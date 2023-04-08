@@ -46,7 +46,7 @@ https://programmercarl.com/0509.%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0.ht
 
 视频：https://www.bilibili.com/video/BV1f5411K7mo  
 
-题目：
+题目：https://leetcode.com/problems/fibonacci-number
 
 看到题目的第一想法：
 
@@ -66,7 +66,7 @@ https://programmercarl.com/0070.%E7%88%AC%E6%A5%BC%E6%A2%AF.html
 
 视频：https://www.bilibili.com/video/BV17h411h7UH  
 
-题目：
+题目：https://leetcode.com/problems/climbing-stairs
 
 看到题目的第一想法：
 
@@ -88,7 +88,7 @@ https://programmercarl.com/0746.%E4%BD%BF%E7%94%A8%E6%9C%80%E5%B0%8F%E8%8A%B1%E8
 
 视频讲解：https://www.bilibili.com/video/BV16G411c7yZ 
 
-题目：
+题目：https://leetcode.com/problems/min-cost-climbing-stairs/
 
 看到题目的第一想法：
 
