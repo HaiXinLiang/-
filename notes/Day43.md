@@ -13,15 +13,15 @@
 
 https://programmercarl.com/1049.%E6%9C%80%E5%90%8E%E4%B8%80%E5%9D%97%E7%9F%B3%E5%A4%B4%E7%9A%84%E9%87%8D%E9%87%8FII.html  
 
-题目：
+题目：https://leetcode.com/problems/last-stone-weight-ii/
 
-看到题目的第一想法：
+看到题目的第一想法：开始想自己做，但是想了一下，还是没有头绪。
 
-实现过程中遇到哪些困难: 
+实现过程中遇到哪些困难: 看了视频，了解了解题思路，听着Karl的讲解，就自己开始着手做了。
 
 看完代码随想录之后的想法:
 
-今日收获：
+今日收获：好像有点了解dp[target]的含义，就是背包最大为target，实际上是接近target的值。
 
 重点：
 
