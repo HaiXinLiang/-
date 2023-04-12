@@ -21,22 +21,39 @@ https://programmercarl.com/%E8%83%8C%E5%8C%85%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%8
 
 视频讲解：https://www.bilibili.com/video/BV1cg411g7Y6  
 
+数组含义： dp[i][j]: 表示从下标为【0-i】的物品里任意取，放进容量为j的背包，价值总和最大是多少。
+
+![image](https://user-images.githubusercontent.com/87255377/231454818-bb91e114-2202-4cdf-8b4a-c47e52de8103.png)
+
+递推公式： dp[i][j] = Math.max(dp[i-1][j], dp[i-1][j-weight[i]] + value[i]);
+
+**不放物品i**：由dp[i - 1][j]推出，即背包容量为j，里面不放物品i的最大价值，此时dp[i][j]就是dp[i - 1][j]。(其实就是当物品i的重量大于背包j的重量时，物品i无法放进背包中，所以被背包内的价值依然和前面相同。)
+**放物品i**：由dp[i - 1][j - weight[i]]推出，dp[i - 1][j - weight[i]] 为背包容量为j - weight[i]的时候不放物品i的最大价值，那么dp[i - 1][j - weight[i]] + value[i] （物品i的价值），就是背包放物品i得到的最大价值
+
+初始化：
+![image](https://user-images.githubusercontent.com/87255377/231455062-b5855e37-ba2d-4652-972f-d3ec092217a1.png)
+
+遍历顺序：
+for(int i =1; i<weight.length;i++){
+  for(int j=1;j<=bageSize;j++){
+     if(j<weight[i]){
+       dp[i][j] = dp[i-1][j]; //当前背包容量小于物品i重量，放不下物品i
+     }else{
+       dp[i][j] = Math.max(dp[i-1][j], dp[i-1][j-weight[i]] + value[i]);
+     }
+   }
+ }
+
  01背包问题 一维 
 https://programmercarl.com/%E8%83%8C%E5%8C%85%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%8001%E8%83%8C%E5%8C%85-2.html  
 
 视频讲解：https://www.bilibili.com/video/BV1BU4y177kY  
 
-题目：
+dp[j]
 
-看到题目的第一想法：
+dp[j] = Math.max(dp[j], dp[j-weight[i]] + value[i]
 
-实现过程中遇到哪些困难: 
 
-看完代码随想录之后的想法:
-
-今日收获：
-
-重点：
 
  416. 分割等和子集  
 本题是 01背包的应用类题目
