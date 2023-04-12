@@ -61,14 +61,14 @@ https://programmercarl.com/0416.%E5%88%86%E5%89%B2%E7%AD%89%E5%92%8C%E5%AD%90%E9
 
 视频讲解：https://www.bilibili.com/video/BV1rt4y1N7jE
 
-题目：
+题目：https://leetcode.com/problems/partition-equal-subset-sum/
 
-看到题目的第一想法：
+看到题目的第一想法：自己想试着做出来，但是没有想明白如何用dp做。
 
-实现过程中遇到哪些困难: 
+实现过程中遇到哪些困难: 后序遍历中 虽然知道是倒序遍历，但是忘了j的条件。 int[] dp = new int[**target + 1**]; 还没想清楚为什么
 
-看完代码随想录之后的想法:
+看完代码随想录之后的想法: 加深了对01背包问题的解法。
 
-今日收获：
+今日收获：这题 nums[i]即是重量也是value
 
 重点：
