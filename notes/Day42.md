@@ -71,4 +71,6 @@ https://programmercarl.com/0416.%E5%88%86%E5%89%B2%E7%AD%89%E5%92%8C%E5%AD%90%E9
 
 今日收获：这题 nums[i]即是重量也是value
 
-重点：
+重点： 1. for(int j=target;j>=nums[i];j--) //bagSize/ bagWeigth 就是target
+      2. return dp[target] == target;
+       
