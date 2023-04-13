@@ -21,7 +21,7 @@ https://programmercarl.com/1049.%E6%9C%80%E5%90%8E%E4%B8%80%E5%9D%97%E7%9F%B3%E5
 
 看完代码随想录之后的想法:
 
-今日收获：好像有点了解dp[target]的含义，就是背包最大为target，实际上是接近target的值。
+今日收获：好像有点了解dp[target]的含义 在这题的含义，就是背包最大为target，实际上是接近target的值。
 
 重点：
 
@@ -32,24 +32,25 @@ https://programmercarl.com/1049.%E6%9C%80%E5%90%8E%E4%B8%80%E5%9D%97%E7%9F%B3%E5
 
 https://programmercarl.com/0494.%E7%9B%AE%E6%A0%87%E5%92%8C.html  
 
-题目：
+题目：https://leetcode.com/problems/target-sum
 
-看到题目的第一想法：
+看到题目的第一想法：看了视频再做
 
-实现过程中遇到哪些困难: 
+实现过程中遇到哪些困难: 遍历顺序物品是从0开始
 
 dp[j] 容量为j 有dp[j]种方法。
 
 已有物品1， dp[4] 凑成 dp[5]
 已有物品2， dp[3] 凑成 dp[5]
 已有物品3， dp[2] 凑成 dp[5]
+已有物品4， dp[1] 凑成 dp[5]
+已有物品5， dp[0] 凑成 dp[5]
 
+看完代码随想录之后的想法: 深刻理解了，有多少种拿取的方法 dp[j] += dp[j-nums[i]]
 
-看完代码随想录之后的想法:
+今日收获：dp[j] += dp[j-nums[i]]
 
-今日收获：
-
-重点：
+重点：dp[j] += dp[j-nums[i]]
 
 
  474.一和零  
