@@ -60,14 +60,14 @@ dp[j] 容量为j 有dp[j]种方法。
 
 https://programmercarl.com/0474.%E4%B8%80%E5%92%8C%E9%9B%B6.html  
 
-题目：
+题目：https://leetcode.com/problems/ones-and-zeroes
 
-看到题目的第一想法：
+看到题目的第一想法：二维数组求01背包问题
 
-实现过程中遇到哪些困难: 
+实现过程中遇到哪些困难: 1. 对bagSize还没有掌握好 target： m 个 0， n个1
 
-看完代码随想录之后的想法:
+看完代码随想录之后的想法: dp[i][j] = Math.max(dp[i][j](不放）, dp[i-zeroNum][j-oneNum] + 1 （放）);  //dp[i][j]表示i个0和j个1时的最大子集
 
-今日收获：
+今日收获：target的取值与dp size的关系  int[][] dp = new int[m+1][n+1]
 
 重点：
