@@ -14,15 +14,15 @@
 
 https://programmercarl.com/0070.%E7%88%AC%E6%A5%BC%E6%A2%AF%E5%AE%8C%E5%85%A8%E8%83%8C%E5%8C%85%E7%89%88%E6%9C%AC.html  
 
-题目：
+题目：https://leetcode.com/problems/climbing-stairs/
 
-看到题目的第一想法：
+看到题目的第一想法：转换为完全背包问题来考虑，用int[] steps = {1,2}装着，然后是排列数问题， 先遍历背包 （target），再遍历物品 （步数）。
 
 实现过程中遇到哪些困难: 
 
 看完代码随想录之后的想法:
 
-今日收获：
+今日收获：用另外一个角度，解决同一个问题
 
 重点：
 
