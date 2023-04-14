@@ -11,18 +11,20 @@
 
  完全背包 
 视频讲解：https://www.bilibili.com/video/BV1uK411o7c9
+
 https://programmercarl.com/%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80%E5%AE%8C%E5%85%A8%E8%83%8C%E5%8C%85.html   
 
  518. 零钱兑换 II  
+
 视频讲解：https://www.bilibili.com/video/BV1KM411k75j
 
 https://programmercarl.com/0518.%E9%9B%B6%E9%92%B1%E5%85%91%E6%8D%A2II.html  
 
-题目：
+题目：https://leetcode.com/problems/coin-change-ii
 
-看到题目的第一想法：
+看到题目的第一想法：自己试做一下，然后对照答案，发现dp数组的定义对了，遍历条件和循序也对了。就是递推公司错了。忘了这里求的是**多少种方法**
 
-实现过程中遇到哪些困难: 
+实现过程中遇到哪些困难: 求有多少种方法的递推公式是 dp[j] += dp[j-coins[i];
 
 看完代码随想录之后的想法:
 
