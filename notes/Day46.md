@@ -15,15 +15,19 @@
 
 https://programmercarl.com/0139.%E5%8D%95%E8%AF%8D%E6%8B%86%E5%88%86.html
 
-题目：
+题目：https://leetcode.com/problems/word-break
 
-看到题目的第一想法：
+看到题目的第一想法：1.没想过可以用背包的解决思路。： 物品是wordDict， 然后去装满背包string， 而且是要排列循序装。妙妙妙  
+2. 没有想到递推公式 是 if((j,i) 能在wordDict找到 && dp[j] is true) dp[i] is true 
+3. 即使想到递推公式，也未必能能用code表达。
+4. 遍历顺序及条件。排列顺序，先遍历背包，再遍历物品。
+
 
 实现过程中遇到哪些困难: 
 
 看完代码随想录之后的想法:
 
-今日收获：
+今日收获：太难了。
 
 重点：
 
