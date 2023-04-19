@@ -46,14 +46,14 @@ https://programmercarl.com/0213.%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8DII.html
 
 https://programmercarl.com/0337.%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8DIII.html
 
-题目：
+题目：https://leetcode.com/problems/house-robber-iii/
 
-看到题目的第一想法：
+看到题目的第一想法：要好好消化一下。
 
-实现过程中遇到哪些困难: 
+实现过程中遇到哪些困难: 看了视频好几回，还是没有明白。然后看着答案，抄了，有点儿理解了。
 
-看完代码随想录之后的想法:
+看完代码随想录之后的想法:  递归三部曲为主旋。 dp[] 表示每一节点，都有偷与不偷该节点的最大金额。后序遍历。
 
-今日收获：
+今日收获：最简单的树形dp
 
 重点：
