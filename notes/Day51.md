@@ -11,15 +11,15 @@
 
 https://programmercarl.com/0309.%E6%9C%80%E4%BD%B3%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E6%97%B6%E6%9C%BA%E5%90%AB%E5%86%B7%E5%86%BB%E6%9C%9F.html  
 
-题目：
+题目：https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown
 
-看到题目的第一想法：
+看到题目的第一想法：看了视频，感觉分太多状态了。写不出来。后来看了代码随想录的文字版，感觉分两个状态还比较好理解。
 
-实现过程中遇到哪些困难: 
+实现过程中遇到哪些困难: 用两个状态来表示。困难是原来初始化，需要初始4个值 （其实初始化的时候，我们应该考虑全部的初始值， 而且应该先有递推公式，再考虑初始值）
 
 看完代码随想录之后的想法:
 
-今日收获：
+今日收获：（其实初始化的时候，我们应该考虑全部的初始值， 而且应该先有递推公式，再考虑初始值）
 
 重点：
 
@@ -30,9 +30,9 @@ https://programmercarl.com/0309.%E6%9C%80%E4%BD%B3%E4%B9%B0%E5%8D%96%E8%82%A1%E7
 
 https://programmercarl.com/0714.%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%E5%90%AB%E6%89%8B%E7%BB%AD%E8%B4%B9%EF%BC%88%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%EF%BC%89.html
 
-题目：
+题目：https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee
 
-看到题目的第一想法：
+看到题目的第一想法：看了视频后，比较容易做出来
 
 实现过程中遇到哪些困难: 
 
