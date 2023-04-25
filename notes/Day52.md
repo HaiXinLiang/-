@@ -50,13 +50,13 @@ https://programmercarl.com/0674.%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E9%80%92%E5
 
 https://programmercarl.com/0718.%E6%9C%80%E9%95%BF%E9%87%8D%E5%A4%8D%E5%AD%90%E6%95%B0%E7%BB%84.html
 
-题目：
+题目：https://leetcode.com/problems/maximum-length-of-repeated-subarray
 
-看到题目的第一想法：
+看到题目的第一想法：直接看视频，没有什么想法
 
-实现过程中遇到哪些困难: 
+实现过程中遇到哪些困难: 1.  //dp[i][j] 以nums1[i-1]和nums2[j-1]结尾最长重复子序列 2. int[][] dp = new int[nums1.length**+1**][nums2.length**+1**];
 
-看完代码随想录之后的想法:
+看完代码随想录之后的想法: dp数组的定义是以[i-1][j-1]这是因为方便初始化初始值
 
 今日收获：
 
