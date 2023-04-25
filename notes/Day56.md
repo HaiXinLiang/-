@@ -11,6 +11,8 @@
 本题和动态规划：115.不同的子序列 相比，其实就是两个字符串都可以删除了，情况虽说复杂一些，但整体思路是不变的。
 https://programmercarl.com/0583.%E4%B8%A4%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E5%88%A0%E9%99%A4%E6%93%8D%E4%BD%9C.html
 
+视频：https://www.bilibili.com/video/BV1we4y157wB
+
 题目：
 
 看到题目的第一想法：
@@ -28,6 +30,8 @@ https://programmercarl.com/0583.%E4%B8%A4%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2%E7
 最终我们迎来了编辑距离这道题目，之前安排题目都是为了 编辑距离做铺垫。 
 
 https://programmercarl.com/0072.%E7%BC%96%E8%BE%91%E8%B7%9D%E7%A6%BB.html
+
+视频：https://www.bilibili.com/video/BV1qv4y1q78f
 
 题目：
 
