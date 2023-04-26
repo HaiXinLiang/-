@@ -13,15 +13,25 @@ https://programmercarl.com/0583.%E4%B8%A4%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2%E7
 
 视频：https://www.bilibili.com/video/BV1we4y157wB
 
-题目：
+题目：https://leetcode.com/problems/delete-operation-for-two-strings
 
-看到题目的第一想法：
+看到题目的第一想法：看视频
 
 实现过程中遇到哪些困难: 
+解法一： 开始的时候对dp数组的定义不是太理解 //dp[i][j] : 以i-1结尾的word1, 以j-1结尾的word2，删除最少次数变成相同word
+解法一的初始值定义 (开始的时候没有想明白）：  
+ for(int i=0;i<=word1.length();i++){
+            dp[i][0] = i;
+        }
 
-看完代码随想录之后的想法:
+        for(int j=0;j<=word2.length();j++){
+            dp[0][j] = j;
+        }
 
-今日收获：
+解法二： dp数组定义：以i-1结尾的word1, 以j-1结尾的word2，最长相同子序列的长度 (不一定要连续的)
+
+看完代码随想录之后的想法: 
+今日收获：没有把最长相同子序列忘记， 呵呵
 
 重点：
 
@@ -33,13 +43,17 @@ https://programmercarl.com/0072.%E7%BC%96%E8%BE%91%E8%B7%9D%E7%A6%BB.html
 
 视频：https://www.bilibili.com/video/BV1qv4y1q78f
 
-题目：
+题目：https://leetcode.com/problems/edit-distance
 
-看到题目的第一想法：
+看到题目的第一想法：听说是最难的，直接看视频了
 
 实现过程中遇到哪些困难: 
+一，递推公式：  1. if(word1.charAt(i-1) == word2.charAt(j-1)) dp[i][j] = dp[i-1][j-1]; 
+               2. else dp[i][j] = Math.min(
+                                增/删  dp[i-1][j]+1 / dp[i][j-1]+1
+                                替换   dp[i-1][j-1]+1)
 
-看完代码随想录之后的想法:
+看完代码随想录之后的想法: 要看代码随想录才知道 原来增删是同一递推公式
 
 今日收获：
 
