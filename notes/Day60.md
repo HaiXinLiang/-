@@ -5,15 +5,15 @@
 
 https://programmercarl.com/0084.%E6%9F%B1%E7%8A%B6%E5%9B%BE%E4%B8%AD%E6%9C%80%E5%A4%A7%E7%9A%84%E7%9F%A9%E5%BD%A2.html
 
-视频：
+视频：https://www.bilibili.com/video/BV1Ns4y1o7uB
 
-题目：
+题目：https://leetcode.com/problems/largest-rectangle-in-histogram
 
-看到题目的第一想法：
+看到题目的第一想法：没有想到如何解决。看了视频才知道是单调递减栈，求比左右少。
 
-实现过程中遇到哪些困难: 
+实现过程中遇到哪些困难: 忘了把元素放入栈里面哈，然后输出结果是0。哈哈。
 
-看完代码随想录之后的想法:
+看完代码随想录之后的想法: 
 
 今日收获：
 
